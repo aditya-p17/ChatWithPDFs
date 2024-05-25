@@ -54,12 +54,12 @@ These instructions will get you a copy of the project up and running on your loc
    pip install -r requirements.txt
    ```
 4. Get your Gemini API key from [AI Studio](https://aistudio.google.com/app/apikey).
-   
 5. Create a .env file in the project directory and add your Gemini API key:
    ```makefile
    GEMINI_API_KEY=your_gemini_api_key_here
    ```
-6.Run the Streamlit application:
+   
+6. Run the Streamlit application:
    ```bash
    streamlit run app.py
    ```
