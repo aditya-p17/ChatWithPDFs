@@ -23,7 +23,11 @@ These instructions will get you a copy of the project up and running on your loc
    git clone https://github.com/aditya-p17/ChatWithPDFs.git
    ```
 2. Set up a virtual environment 
+Before any step, install virtualenv
 
+   ```bash
+   pip install virtualenv
+   ```
    It's recommended to set up a virtual environment to isolate the dependencies of this project. 
 
    - On Linux:
