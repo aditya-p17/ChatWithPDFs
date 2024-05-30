@@ -32,15 +32,19 @@ These instructions will get you a copy of the project up and running on your loc
 
      ```bash
      python3 -m virtualenv venv
+     ```
+     ```bash
      source venv/bin/activate
      ```
-
+     
    - On Windows:
 
      You can do this by running:
 
      ```bash
      py -m virtualenv venv
+     ```
+      ```bash
      .\venv\Scripts\activate
      ```
 
