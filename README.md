@@ -6,12 +6,10 @@ This project involves the development of a robust RAG (Retrieval-Augmented Gener
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-
 ### Prerequisites
 
 - Python version greater than 3.11 installed
 - Gemini API key from [AI Studio](https://aistudio.google.com/app/apikey)
-  
 
 ### Installing
 
@@ -22,13 +20,13 @@ These instructions will get you a copy of the project up and running on your loc
    ```bash
    git clone https://github.com/aditya-p17/ChatWithPDFs.git
    ```
-2. Set up a virtual environment 
-Before any step, install virtualenv
+2. Set up a virtual environment
+   Before any step, install virtualenv
 
    ```bash
    pip install virtualenv
    ```
-   It's recommended to set up a virtual environment to isolate the dependencies of this project. 
+   It's recommended to set up a virtual environment to isolate the dependencies of this project.
 
    - On Linux:
 
@@ -40,7 +38,6 @@ Before any step, install virtualenv
      ```bash
      source venv/bin/activate
      ```
-     
    - On Windows:
 
      You can do this by running:
@@ -48,12 +45,11 @@ Before any step, install virtualenv
      ```bash
      py -m virtualenv venv
      ```
-      ```bash
+     ```bash
      .\venv\Scripts\activate
      ```
 
    This will create a new virtual environment in a folder named `venv` and activate it. While the virtual environment is activated, any packages you install with pip will be installed in the virtual environment, not globally.
-
 3. Install the dependencies
 
    After setting up and activating the virtual environment, you can install the required Python packages with pip by running:
@@ -63,11 +59,12 @@ Before any step, install virtualenv
    ```
 4. Get your Gemini API key from [AI Studio](https://aistudio.google.com/app/apikey).
 5. Create a `.env` file in the project directory and add your Gemini API key:
+
    ```makefile
-   GEMINI_API_KEY=your_gemini_api_key_here
+   GOOGLE_API_KEY=your_gemini_api_key_here
    ```
-   
 6. Run the Streamlit application:
+
    ```bash
    streamlit run app.py
    ```
